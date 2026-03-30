@@ -32,3 +32,23 @@ User → Service Layer → Repository → Data Storage
 - Layered Architecture (Service, Repository)
 - Exception Handling implemented
 - Input validation added
+
+- ## Sample Execution
+
+1. Add Book
+2. Issue Book
+3. Return Book
+4. View Books
+5. Exit
+
+Enter choice: 1  
+Enter ID: 1  
+Enter Name: Java  
+Book added!
+
+Enter choice: 4  
+1 - Java - Available
+
+Enter choice: 2  
+Enter Book ID: 1  
+Book issued!
